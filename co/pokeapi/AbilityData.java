@@ -1,6 +1,7 @@
 package co.pokeapi;
 
 public class AbilityData {
-    public String name;
-    public String url;
+    public Ability ability;
+    public Boolean is_hidden;
+    public Integer slot;
 }
