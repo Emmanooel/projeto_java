@@ -79,33 +79,3 @@ class Pokemon {
         this.weight = weight;
     }
 }
-
-import java.io.IOException;
-        import java.net.URI;
-        import java.net.http.HttpClient;
-        import java.net.http.HttpRequest;
-        import java.net.http.HttpResponse;
-
-class RequestPokemon {
-
-    public static void main(String[] args) throws IOException, InterruptedException {
-
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://pokeapi.co/api/v2/pokemon/1/"))
-                .build();
-
-        HttpResponse<String> response = client.send(request,
-                HttpResponse.BodyHandlers.ofString());
-
-        System.out.println(response.body());
-    }
-}
-class main {
-    public static void main(String[] args) {
-        requestPokemon b = new requestPokemon();
-        pokemon bulbasaur = new Pokemon();
-        setPokemon = new Gson().fromJson(b, Pokemon.class);
-        System.out.println(setPokemon);
-    }
-}

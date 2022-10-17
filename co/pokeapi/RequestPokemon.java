@@ -4,18 +4,23 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-class RequestPokemon {
+public class RequestPokemon {
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static String getPokemon(Integer pokedexId) throws IOException, InterruptedException {
+        if (pokedexId != null){
+            throw new IOException("Invalid pokedex id");
+        }
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://pokeapi.co/api/v2/pokemon/1/"))
+                .uri(URI.create("https://pokeapi.co/api/v2/pokemon/" + pokedexId + "/"))
                 .build();
 
         HttpResponse<String> response = client.send(request,
                 HttpResponse.BodyHandlers.ofString());
 
         System.out.println(response.body());
+        return response.body();
     }
+
 }
