@@ -1,4 +1,4 @@
-import com.sun.jdi.request.DuplicateRequestException;
+import co.pokeapi.Pokemon;
 
 public class SetPokemon extends Pokemon {
 
