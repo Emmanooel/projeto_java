@@ -13,4 +13,9 @@
       <module name="projeto_java" target="19" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="projeto_java" options="--add-modules java.net.http" />
+    </option>
+  </component>
 </project>

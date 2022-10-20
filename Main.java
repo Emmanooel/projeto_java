@@ -1,5 +1,7 @@
+import co.pokeapi.Pokedex;
 import co.pokeapi.Pokemon;
 import co.pokeapi.RequestPokemon;
+import co.pokeapi.ValuesPokedex;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -11,11 +13,11 @@ public class Main {
         try{
             String b = RequestPokemon.getPokemon(1);
             Pokemon bulbasaur = new Gson().fromJson(b, Pokemon.class);
+            String p = new Pokedex().toString();
+            String HomePage = new Gson().fromJson(p, ValuesPokedex.class).toString();
+            System.out.println(HomePage);
 
-            System.out.println();
-            System.out.println();
-            print(bulbasaur);
-
+            printValues(HomePage);
         } catch (IOException | InterruptedException e){
             System.out.println(e.getMessage());
         }
@@ -37,6 +39,13 @@ public class Main {
             }
 
             System.out.println(name + " (" + type +") = " + value);
+        }
+    }
+    public static void printValues(Object obj) {
+
+        for (int i = 0; i < 20; i++) {
+            System.out.println("name: " + obj.getClass());
+            System.out.println("URL: " + obj.getClass());
         }
     }
 }

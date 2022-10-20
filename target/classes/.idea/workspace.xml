@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d88778dc-2319-4641-b359-f30a6741abaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pokemon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RequestPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/co/pokeapi/RequestPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SetPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/SetPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/co/pokeapi/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto_java.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/co/pokeapi/Pokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetPokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/projeto_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/projeto_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/projeto_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/projeto_java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/renan/codes/programa_formacao_2/projeto_java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/emmanoel/Downloads/projeto_easyc/projeto_java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -61,6 +61,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.pokeapi" />
     </key>
   </component>
   <component name="RunManager">
@@ -86,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666046279460</updated>
       <workItem from="1666046280679" duration="386000" />
-      <workItem from="1666046681787" duration="570000" />
+      <workItem from="1666046681787" duration="1694000" />
     </task>
     <servers />
   </component>
